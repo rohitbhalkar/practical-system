@@ -13,8 +13,8 @@ dotenv.config()
 
 app.get("/", (req, res)=>{
   res.json({
-    success: true,
-    message: "Server Running Successfully"
+    "success": true,
+    "message": "Server Running Successfully"
   })
 })
 dbConnect();
